@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           Applejack is the best pony Doodle — Modern Google
+@namespace      userstyles.org/styles/107733/compatibility-port
+@version        1.0.0
+@description    Unofficial compatibility port of Axelerre's Applejack Google Doodle for the modern Google home page.
+@author         Axelerre (original style); community compatibility port
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+
+/*
+ * The MIT license covers the compatibility code only.
+ * Third-party artwork and characters are excluded. See THIRD_PARTY_NOTICES.md.
+ */
+@-moz-document domain("google.com"),
+               domain("google.com.hk"),
+               domain("google.com.tw"),
+               domain("google.cn") {
+  /* Modern Google home-page logo row. */
+  #LS8OJ {
+    height: 220px !important;
+    min-height: 220px !important;
+    max-height: 220px !important;
+  }
+
+  /* Primary selector and current-class fallback. */
+  #LS8OJ > div,
+  .k1zIA.rSk4se {
+    width: 540px !important;
+    height: 220px !important;
+    max-height: none !important;
+    overflow: hidden !important;
+    background-color: white !important;
+    background-image: url("https://raw.githubusercontent.com/uso-archive/data/flomaster/data/screenshots/107733-0.webp") !important;
+    background-repeat: no-repeat !important;
+    background-position: -240px -80px !important;
+    background-size: 1024px 651px !important;
+  }
+
+  /* Hide Google's logo art while retaining its layout wrapper. */
+  #LS8OJ > div > *,
+  .k1zIA.rSk4se > * {
+    visibility: hidden !important;
+  }
+}
