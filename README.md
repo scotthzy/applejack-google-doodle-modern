@@ -4,6 +4,12 @@ An unofficial, non-commercial compatibility port of the old Userstyles.org style
 
 This repository is not a GitHub fork of the Userstyles archive. It is a standalone maintenance port containing rewritten compatibility CSS.
 
+## Preview
+
+[![Archived preview of the Applejack Google Doodle style](https://raw.githubusercontent.com/uso-archive/data/flomaster/data/screenshots/107733-0.webp)](https://raw.githubusercontent.com/uso-archive/data/flomaster/data/screenshots/107733-0.webp)
+
+*Archived preview of the original style on Google. The image is displayed from the external Userstyles archive and is not stored in this repository.*
+
 ## Install
 
 1. Install the [Stylus browser extension](https://github.com/openstyles/stylus).
